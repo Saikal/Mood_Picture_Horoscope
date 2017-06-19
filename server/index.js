@@ -13,6 +13,17 @@ app.use(express.static(__dirname + '/../react-client/dist'));
 // app.use(express.static(__dirname + '/../angular-client'));
 // app.use(express.static(__dirname + '/../node_modules'));
 
+
+
+app.post('/items/import', function (req, res) {
+  console.log('*********testing POST req.body: ', req.body);
+  res.send([5, 8, 3, 7]);
+});
+
+
+
+
+
 app.get('/items', function (req, res) {
   items.selectAll(function(err, data) {
     if(err) {
