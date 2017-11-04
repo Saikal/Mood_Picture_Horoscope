@@ -8,9 +8,15 @@ Picture changes according to you MOOD & HOROSCOPE
 
 npm install
 
+## Start Webpack
+
 npm run react-dev
 
+## Start Node Server
+
 npm run server-dev
+
+## Start Database
 
 npm run db-start
 
