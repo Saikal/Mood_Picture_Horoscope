@@ -1,0 +1,60 @@
+
+body {
+  background-image: url("http://www.allthesky.com/constellations/preview/zodiacpostermml-p.jpg");
+
+}
+
+button {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  background-image: url("http://cdn.wallpapersafari.com/16/53/WI3LF5.jpg");
+  box-shadow: 0 20px pink;
+  padding: 20px 16px;
+  border-radius: 12px;
+  color: darkred;
+  background-size: 100%;
+  font-weight: bold;
+
+
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+div {
+
+  background-color: ;
+  color: lightseagreen;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 25px;
+  font-style: italic
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  color: darkseagreen;
+}
+
+h2 {
+  font-size: 25px;
+  color: pink;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+h4 {
+ 
+  font-size: 12px;
+  color: hotpink;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+

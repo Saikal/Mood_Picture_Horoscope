@@ -20,9 +20,10 @@ class Search extends React.Component {
 
   render() {
     return (<div>
-      <h4>Add more items!</h4>
-      Enter an item searching: <input value={this.state.terms} onChange={this.onChange.bind(this)}/>       
-      <button onClick={this.search.bind(this)}> Add items </button>
+      <h2>SEE your MOOD CHANGING IMAGES for 3 DAYS!</h2>
+      Enter your SUNSIGN: <input value={this.state.terms} onChange={this.onChange.bind(this)}/>       
+      <button onClick={this.search.bind(this)}> LET'S REQUEST YOUR HOROSCOPE FOR 5 DAYS </button>
+
     </div>) 
   }
 }
